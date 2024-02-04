@@ -1,0 +1,166 @@
+html,
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #1f2533;
+  padding: 15px;
+  color: #fff;
+}
+
+nav .nav-item-container {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.right-nav-item {
+  float: right !important;
+}
+
+.mallname {
+  font-size: 9pt;
+}
+
+.back-logo {
+  font-size: 20pt;
+  color: #fff;
+}
+
+header {
+  background-color: #f3f3f3;
+  padding: 7px 30px 7px 30px;
+}
+
+.timing-select-button {
+  background-color: #fff;
+  color: #2dc492;
+  border: 1px solid #2dc492;
+  border-radius: 3px;
+  width: 8em;
+  height: 3em;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+}
+
+.timing-select-button.active {
+  background-color: #2dc492;
+  color: #fff;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 2.5rem 12rem;
+}
+
+.ticket-count-button {
+  padding: 5px 1px;
+  background-color: #1f2533;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.ticket-count-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.seat-button {
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #2dc492;
+}
+
+.seat-number-text {
+  font-size: 10px;
+}
+
+.booking-class-header {
+  color: #999;
+}
+
+.row-name-text {
+  position: absolute;
+  left: 0;
+  color: #999;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.seat-numbers {
+  display: flex;
+  gap: 7px;
+  margin-left: 50px;
+}
+
+.data-class {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 30px;
+  border-bottom: 1px solid #ececec;
+  line-height: 25px;
+}
+
+.class-items {
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.class-wrapper {
+  margin-top: 7px;
+}
+
+.seat-selected {
+  background-color: #1ea83c;
+}
+
+.seat-text-selected {
+  color: #fff;
+}
+
+.seat-text-booked {
+  color: #fff;
+}
+
+.seat-selection-wrapper {
+  height: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 98;
+  gap: 10px;
+}
+
+.available-box,
+.selected-box,
+.sold-box {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+}
+
+.available-box {
+  border: 1px solid #2dc492;
+}
+
+.selected-box {
+  background-color: #2dc492;
+}
+
+.sold-box {
+  background-color: #eee;
+}
